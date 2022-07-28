@@ -1,0 +1,10 @@
+/**
+Don't ask~
+**/
+
+CREATE TABLE novels (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO novels VALUES (1, "Honeymelonne", 3);
+INSERT INTO novels VALUES (2, "Bearado", 4);
+INSERT INTO novels VALUES (3, "Prados", 5);
+SELECT * FROM novels;
